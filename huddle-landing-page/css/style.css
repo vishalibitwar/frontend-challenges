@@ -32,7 +32,7 @@ body {
 }
 .showcase h1 {
   font-family: 'Poppins', sans-serif;
-  font-weight: 400;
+  font-weight: 700;
   font-size: 2.3rem;
 }
 .showcase p {
@@ -44,7 +44,8 @@ body {
   max-width: 100%;
 }
 .showcase .item button {
-  padding: 0.8rem 2.7rem;
+  font-size: 1rem;
+  padding: 1rem 4rem;
   background-color: white;
   color: hsl(257, 40%, 49%);
   border-radius: 30px;
