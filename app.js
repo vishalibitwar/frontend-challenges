@@ -1,10 +1,13 @@
 const projects = [
   {
     name: 'four-card-feature-section'
+  },
+  {
+    name: 'huddle-landing-page'
   }
 ];
 
-const color = ['cyan', 'magenta', 'lightgreen', 'blueviolet', 'orangered', 'aquamarine', 'crimson'];
+const color = ['cyan', 'magenta', 'lightgreen', 'blueviolet', 'orangered', 'aquamarine'];
 
 const list = document.getElementById('list');
 
