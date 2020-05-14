@@ -4,6 +4,9 @@ const projects = [
   },
   {
     name: 'huddle-landing-page'
+  },
+  {
+    name: 'single-price-grid-component'
   }
 ];
 

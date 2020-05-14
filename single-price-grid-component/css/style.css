@@ -1,0 +1,178 @@
+@import url('https://fonts.googleapis.com/css2?family=Karla:wght@400;700&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Karla', sans-serif;
+  font-size: 16px;
+  background-color: hsl(204, 43%, 93%);
+}
+
+.container {
+  margin: 4rem auto;
+  background-color: white;
+  max-width: 800px;
+  border-radius: 10px;
+}
+
+.intro {
+  padding: 3rem;
+}
+
+.intro h1 {
+  color: hsl(179, 62%, 43%);
+}
+
+.intro h2 {
+  color: hsl(71, 73%, 54%);
+  margin-top: 1.5rem;
+  margin-bottom: 1.1rem;
+}
+
+.intro p {
+  color: hsl(218, 22%, 67%);
+  font-size: 1.3rem;
+  line-height: 1.5;
+}
+
+.flex {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  color: white;
+}
+
+.flex .item-1 {
+  max-width: 100%;
+  padding: 3rem;
+  background-color: hsl(179, 62%, 43%);
+  flex: 1;
+  height: 300px;
+  border-bottom-left-radius: 10px;
+}
+
+.flex .item-1 h2 {
+  font-family: 'Karla', sans-serif;
+  font-weight: 400;
+  margin-bottom: 1.2rem;
+}
+
+.flex .item-2 {
+  max-width: 100%;
+  height: 300px;
+  padding: 3rem;
+  background-color: hsl(178, 47%, 55%);
+  flex: 1;
+  border-bottom-right-radius: 10px;
+}
+
+span.dollar {
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+span.per {
+  vertical-align: middle;
+  align-self: center;
+  opacity: 0.6;
+}
+
+.item-1 p {
+  font-size: 1.1rem;
+  margin: 0.8rem 0rem;
+}
+
+.flex .item-1 button {
+  width: 280px;
+  max-width: 100%;
+  padding: 1rem 0rem;
+  border-radius: 6px;
+  border: none;
+  color: white;
+  font-weight: bold;
+  font-size: 1.1rem;
+  margin-top: 1.4rem;
+  background-color: hsl(71, 73%, 54%);
+}
+
+.flex .item-2 ul {
+  list-style: none;
+  margin: 1.7rem 0rem;
+}
+
+.flex .item-2 ul li {
+  margin: 0.3rem 0rem;
+  opacity: 0.7;
+}
+
+footer {
+  text-align: center;
+  color: black;
+  margin-bottom: 1rem;
+  cursor: pointer;
+}
+
+footer a {
+  text-decoration: none;
+  color: blueviolet;
+  border-bottom: 2px solid wheat;
+}
+
+@media screen and (max-width: 600px) {
+  .container {
+    border: none;
+    max-width: 330px;
+  }
+
+  .intro {
+    padding: 1.6rem;
+  }
+
+  .intro h1 {
+    font-size: 1.5rem;
+  }
+
+  .intro h2 {
+    font-size: 1.11rem;
+  }
+
+  .intro p {
+    font-size: 0.84rem;
+  }
+
+  .flex {
+    flex-direction: column;
+  }
+
+  .price {
+    flex-direction: row;
+  }
+
+  .flex .item-1 {
+    padding: 1.6rem;
+    width: 100%;
+    border-bottom-left-radius: 0px;
+  }
+
+  .flex .item-1 h2 {
+    font-size: 1.4rem;
+  }
+
+  .flex .item-1 p {
+    font-size: 1.1rem;
+  }
+
+  .flex .item-2 {
+    padding: 1.6rem;
+    width: 100%;
+    border-bottom-left-radius: 10px;
+  }
+
+  button {
+    max-width: 240px;
+  }
+}
