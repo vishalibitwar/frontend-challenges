@@ -1,0 +1,175 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;500;700&display=swap');
+
+* {
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+   font-size: 32px;
+}
+
+body {
+   font-family: 'Inter', sans-serif;
+   background-color: #fafafa;
+   font-weight: 300;
+}
+
+.container {
+   margin: 4rem auto;
+   width: 70%;
+}
+
+.mt-1 {
+   margin-top: 1rem;
+}
+
+.item-2 {
+   justify-self: center;
+}
+
+#quotes {
+   margin-left: 3rem;
+   margin-bottom: -1.5rem;
+   text-align: center;
+   align-self: center;
+}
+
+.flex {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+
+#profile-background {
+   position: relative;
+   top: -43px;
+   left: -30px;
+   width: 500px;
+   height: auto;
+   z-index: -5;
+}
+
+.flex .item-2 {
+   position: relative;
+}
+
+#profile-image {
+   border-radius: 5px;
+   position: absolute;
+   top: 0;
+   left: 0;
+   z-index: -1;
+   width: 400px;
+   height: 400px;
+}
+
+#name {
+   font-size: 0.7rem;
+   margin-top: 2rem;
+}
+
+#designation {
+   font-size: 0.7rem;
+   color: hsl(240, 18%, 77%);
+}
+
+.item-2 .buttons {
+   cursor: pointer;
+   display: flex;
+   justify-content: space-between;
+   box-sizing: border-box;
+   width: 80px;
+   padding: 0.4rem;
+   margin-top: -3rem;
+   margin-left: 2rem;
+   z-index: 2;
+   background-color: white;
+   border-radius: 20px;
+}
+
+.item-2 .buttons img {
+   width: 11px;
+   height: 15px;
+}
+
+footer {
+   text-align: center;
+   font-size: 0.5rem !important;
+}
+
+footer a {
+   font-size: 0.5rem;
+}
+
+#curve {
+   position: fixed;
+   bottom: 0;
+}
+
+@media(max-width:1100px) {
+   .container {
+      margin: 0rem auto;
+      margin-top: 2rem;
+      width: 90%;
+   }
+
+   .flex {
+      flex-direction: column;
+   }
+
+   .item-2 {
+      order: 1;
+   }
+
+   .item-1 {
+      order: 2;
+   }
+
+    #profile-background{
+         width: 390px;
+         height: auto;
+         left: 0.5rem;
+    }
+
+   #profile-image {
+      position: absolute;
+      top: 2rem;
+      left: 15%;
+      top: -1.9%;
+      max-width: 300px;
+      max-height: 300px;
+   }
+
+   .item-2 .buttons {
+      position: absolute;
+      left: 30%;
+      margin-top: -3.5rem;
+      align-self: center;
+   }
+
+   #about {
+      text-align: center;
+      font-size: 23px;
+   }
+
+   #quotes {
+      width: 80px;
+      margin-left: 43%;
+   }
+
+   #curve {
+      position: relative;
+      max-width: 320px;
+      margin-bottom: -2rem;
+   }
+
+   .namedes {
+      margin-top: 0 !important;
+      display: flex;
+      flex-direction: column;
+      text-align: center;
+   }
+
+   footer {
+      margin: 0.5rem 0rem;
+   }
+}

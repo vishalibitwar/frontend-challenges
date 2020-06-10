@@ -7,6 +7,9 @@ const projects = [
   },
   {
     name: 'single-price-grid-component'
+  },
+  {
+    name: 'coding-bootcamp-testimonials-slider'
   }
 ];
 
